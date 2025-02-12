@@ -61,8 +61,7 @@
 .movie {
   &__item {
     z-index: 101;
-    width: 100%;
-    max-width: 300px;
+    max-width: $movie-width;
     box-sizing: border-box;
     margin-bottom: $gap-md;
   }
@@ -79,8 +78,8 @@
     }
   }
   &__img {
-    width: 270px;
-    height: 400px;
+    width: $movie-width;
+    height: $movie-height;
   }
   &__year, &__type {
     font-size: $font-size-sm;
@@ -94,8 +93,6 @@
     font-size: $font-size-min;
     margin-top: 5px;
   }
-
-
 }
 
 .overlay{
