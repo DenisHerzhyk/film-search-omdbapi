@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,21 +12,21 @@
     <title>Film Search</title>
 </head>
 <body>
-    <div class="container">
-        <div class="header__container">
-            <img src="images/logo.png" class="header__logo" alt="logo">
-            <h1>Film Search API</h1>
-        </div>
-
-        <div class="search__container search__container--input">
-            <label for="search__input" hidden>Search film:</label>
-            <input class="search__input" type="text" id="search__input" name="search__input" placeholder="Search film...">
-        </div>
-        <div class="movies__container">
-            <div class="movies__list" id="movies-list"></div>
-            <div class="overlay"></div>
-        </div>
+<div class="container">
+    <div class="header__container">
+        <img src="images/logo.png" class="header__logo" alt="logo">
+        <h1>Film Search API</h1>
     </div>
-    <script src="js/main.js"></script>
+
+    <div class="search__container search__container--input">
+        <label for="search__input" hidden>Search film:</label>
+        <input class="search__input" type="text" id="search__input" name="search__input" placeholder="Search film...">
+    </div>
+    <div class="movies__container">
+        <div class="movies__list" id="movies-list"></div>
+        <div class="overlay"></div>
+    </div>
+</div>
+<script src="js/main.js"></script>
 </body>
 </html>
