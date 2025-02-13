@@ -1,4 +1,4 @@
-const API_URL = 'https://www.omdbapi.com/?apikey=d1d0e59f&s='; // i=tt3896198&
+const API_URL = "your_api_key+&s="
 const movieList = document.querySelector("#movies-list");
 const search = document.querySelector("#search__input");
 
